@@ -82,3 +82,15 @@ li:hover {
 .nav-content:hover {
   color: black;
 }
+
+.content {
+  width: 100%;
+}
+.main-photo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.image-main {
+  width: 1216px;
+}
