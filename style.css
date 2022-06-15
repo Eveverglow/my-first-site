@@ -1,3 +1,12 @@
+body {
+  margin: 0 auto;
+  font-family: "Whitney SSm", sans-serif;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
 header {
   width: 100%;
   height: 80px;
@@ -31,19 +40,16 @@ header {
   cursor: pointer;
   border-right: #a6a6a6 solid 1px;
 }
-.list-container-one,
-.list-container-two {
+.list-one,
+.list-two {
   display: flex;
+  align-items: center;
   flex-direction: row;
   padding-left: 20px;
 }
-li,
-body {
+li {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 5px;
-  padding-top: 15px;
-  font-family: "Whitney SSm", sans-serif;
   font-size: 12px;
   list-style: none;
   cursor: pointer;
@@ -84,13 +90,19 @@ li:hover {
 }
 
 .content {
+  padding: 20px;
   width: 100%;
 }
-.main-photo {
-  margin-left: 20px;
-  margin-right: 20px;
+
+.hero {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-image: url(/assets/main-photo.JPG);
 }
 
-.image-main {
-  width: 1216px;
+.main-photo-text {
+  margin-top: 20px;
+  font-size: 0.875rem;
+  line-height: 1.7991234541;
 }
