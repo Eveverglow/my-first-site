@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   font-family: "Whitney SSm", sans-serif;
+  height: 2000px;
 }
 
 ul {
@@ -99,10 +100,66 @@ li:hover {
   height: 600px;
   background-size: cover;
   background-image: url(/assets/main-photo.JPG);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /*color: #2c553d;*/
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+}
+
+h2 {
+  /*color: #c75f45;*/
+  color: white;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .main-photo-text {
   margin-top: 20px;
   font-size: 0.875rem;
   line-height: 1.7991234541;
+}
+
+button {
+  border: black 2px;
+  background-color: #cc8e3a;
+  border-radius: 10px !important;
+  opacity: 0.7;
+  padding: 13px;
+}
+button:hover {
+  opacity: 1;
+}
+
+.teaser-content {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.875rem;
+}
+
+.teaser {
+  width: 280px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+body p {
+  margin-bottom: 0px;
+}
+
+.teaser img {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+h3:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
